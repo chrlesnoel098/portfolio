@@ -16,6 +16,25 @@
         }
     }
 
+    .navWidget{
+        display: flex; 
+        writing-mode: vertical-rl;
+        text-orientation: mixed;
+        justify-content: space-between;
+        list-style: none;
+       
+        
+        a{
+            text-decoration: none;
+            color: rgb(111, 111, 111);
+            animation: random 7s forwards ease-in-out alternate-reverse;
+            &:hover{
+                font-weight: 600;
+                animation: random 1s infinite;
+                
+               }
+        }
+    }
     .navPrincipale{
         display: flex;
         justify-content: space-between;
@@ -24,23 +43,27 @@
         margin: 0;
         list-style: none;
         font-size: 1.5em;
+        
         a{
+           
             font-weight: bolder;
             text-decoration: none;
             color: black;
             margin-bottom: 2em;
             transition: font-weight 250ms;
+            animation: random 3s forwards ease-in-out alternate-reverse;
            &:hover{
             font-weight: 400;
             animation: random 1s infinite;
+           
            }
         }
         @keyframes random {
-            15% { color: red; } 
-            30% { color: #E4D400; } 
-            45% { color: green; } 
-            60% { color: blue; }
-            75% { color: rgb(96, 255, 239); } 
+            15% { color: rgb(126, 57, 57); } 
+            30% { color: #6a652a; } 
+            45% { color: rgb(102, 109, 78); } 
+            60% { color: rgb(109, 56, 56); }
+            75% { color: rgb(87, 146, 140); } 
     }
 
 }

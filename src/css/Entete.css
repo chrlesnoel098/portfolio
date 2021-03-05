@@ -17,6 +17,25 @@
   margin-right: 0.5em;
 }
 
+.Entete .navWidget {
+  display: flex;
+  writing-mode: vertical-rl;
+  text-orientation: mixed;
+  justify-content: space-between;
+  list-style: none;
+}
+
+.Entete .navWidget a {
+  text-decoration: none;
+  color: #6f6f6f;
+  animation: random 7s forwards ease-in-out alternate-reverse;
+}
+
+.Entete .navWidget a:hover {
+  font-weight: 600;
+  animation: random 1s infinite;
+}
+
 .Entete .navPrincipale {
   display: flex;
   justify-content: space-between;
@@ -33,6 +52,7 @@
   color: black;
   margin-bottom: 2em;
   transition: font-weight 250ms;
+  animation: random 3s forwards ease-in-out alternate-reverse;
 }
 
 .Entete .navPrincipale a:hover {
@@ -42,19 +62,19 @@
 
 @keyframes random {
   15% {
-    color: red;
+    color: #7e3939;
   }
   30% {
-    color: #E4D400;
+    color: #6a652a;
   }
   45% {
-    color: green;
+    color: #666d4e;
   }
   60% {
-    color: blue;
+    color: #6d3838;
   }
   75% {
-    color: #60ffef;
+    color: #57928c;
   }
 }
 /*# sourceMappingURL=Entete.css.map */
