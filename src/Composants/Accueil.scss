@@ -1,0 +1,32 @@
+.social-container {
+  padding: 25px 50px;
+
+  a.social {
+  margin: 0 1rem;
+  transition: transform 250ms;
+  transition: color 250ms;
+  display: inline-block;
+  
+}
+
+a.social:hover {
+  transform: translateY(-2px);
+  color: grey;
+}
+a.linkedin {
+  color: black;
+}
+
+a.github {
+  color: black;
+}
+
+a.behance {
+  color: black;
+}
+
+a.sketchfab {
+  color: black;
+  width: 1.8em;
+}
+}

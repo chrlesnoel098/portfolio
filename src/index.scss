@@ -1,0 +1,50 @@
+html {
+    box-sizing: border-box;
+  }
+  
+  *, *::before, *::after{
+    box-sizing: inherit;
+  }
+
+  
+  #racine {
+    width: 100%;
+    margin: 0 auto;
+  }
+
+body{
+  background-color: #FFFCFC;
+  font-size: 14px;
+  overflow: hidden;
+}
+
+.wrap{
+  perspective-origin: 50% 50%;
+}
+
+.svg{
+  stroke:lightgrey;
+  position:absolute;
+  bottom: -100vh;
+ 
+}
+
+$total: 10;
+@for $i from 1 through $total {
+  $scale:random(2) - .4;
+  
+  .svg:nth-child(#{$i}){
+    left:random(120) * 1% - 20;
+    animation: raise#{$i} 6 + random(15) +s linear infinite;
+    animation-delay:random(15) - 15 + s;
+    transform: scale(.3 * $i - .6) rotate(random(360) + deg);
+    z-index: -7;
+
+    @keyframes raise#{$i} {
+      to{
+       bottom:150vh;
+       transform: scale(.3 * $i - .6) rotate(random(360) + deg);
+      }
+    }
+  }
+}
