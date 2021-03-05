@@ -6,7 +6,7 @@ export default function Pied2Page(props) {
 
     return (
         <footer>
-            &copy; {annee}
+           Charles Noel Portfolio &copy; {annee}
         </footer>
     );
 }

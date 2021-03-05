@@ -1,0 +1,184 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap");
+html {
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+#racine {
+  width: 100%;
+  margin: 0 auto;
+}
+
+body {
+  background-color: #FFFCFC;
+  font-family: 'Oswald', sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  overflow-x: hidden;
+  height: 250vh;
+}
+
+.wrap {
+  perspective-origin: 50% 50%;
+}
+
+.svg {
+  stroke: #a0a0a0;
+  position: absolute;
+  bottom: -100vh;
+}
+
+.svg:nth-child(1) {
+  left: 19%;
+  animation: raise1 10s linear infinite;
+  animation-delay: -2s;
+  transform: scale(-0.3) rotate(320deg);
+  z-index: -7;
+}
+
+@keyframes raise1 {
+  to {
+    bottom: 150vh;
+    transform: scale(-0.3) rotate(86deg);
+  }
+}
+
+.svg:nth-child(2) {
+  left: 45%;
+  animation: raise2 9s linear infinite;
+  animation-delay: -12s;
+  transform: scale(0) rotate(336deg);
+  z-index: -7;
+}
+
+@keyframes raise2 {
+  to {
+    bottom: 150vh;
+    transform: scale(0) rotate(224deg);
+  }
+}
+
+.svg:nth-child(3) {
+  left: 24%;
+  animation: raise3 7s linear infinite;
+  animation-delay: 0s;
+  transform: scale(0.3) rotate(278deg);
+  z-index: -7;
+}
+
+@keyframes raise3 {
+  to {
+    bottom: 150vh;
+    transform: scale(0.3) rotate(10deg);
+  }
+}
+
+.svg:nth-child(4) {
+  left: 42%;
+  animation: raise4 17s linear infinite;
+  animation-delay: -6s;
+  transform: scale(0.6) rotate(282deg);
+  z-index: -7;
+}
+
+@keyframes raise4 {
+  to {
+    bottom: 150vh;
+    transform: scale(0.6) rotate(169deg);
+  }
+}
+
+.svg:nth-child(5) {
+  left: -4%;
+  animation: raise5 16s linear infinite;
+  animation-delay: -5s;
+  transform: scale(0.9) rotate(60deg);
+  z-index: -7;
+}
+
+@keyframes raise5 {
+  to {
+    bottom: 150vh;
+    transform: scale(0.9) rotate(357deg);
+  }
+}
+
+.svg:nth-child(6) {
+  left: 15%;
+  animation: raise6 10s linear infinite;
+  animation-delay: -9s;
+  transform: scale(1.2) rotate(298deg);
+  z-index: -7;
+}
+
+@keyframes raise6 {
+  to {
+    bottom: 150vh;
+    transform: scale(1.2) rotate(276deg);
+  }
+}
+
+.svg:nth-child(7) {
+  left: 37%;
+  animation: raise7 21s linear infinite;
+  animation-delay: -4s;
+  transform: scale(1.5) rotate(186deg);
+  z-index: -7;
+}
+
+@keyframes raise7 {
+  to {
+    bottom: 150vh;
+    transform: scale(1.5) rotate(313deg);
+  }
+}
+
+.svg:nth-child(8) {
+  left: 88%;
+  animation: raise8 14s linear infinite;
+  animation-delay: -7s;
+  transform: scale(1.8) rotate(158deg);
+  z-index: -7;
+}
+
+@keyframes raise8 {
+  to {
+    bottom: 150vh;
+    transform: scale(1.8) rotate(93deg);
+  }
+}
+
+.svg:nth-child(9) {
+  left: 53%;
+  animation: raise9 12s linear infinite;
+  animation-delay: -8s;
+  transform: scale(2.1) rotate(183deg);
+  z-index: -7;
+}
+
+@keyframes raise9 {
+  to {
+    bottom: 150vh;
+    transform: scale(2.1) rotate(17deg);
+  }
+}
+
+.svg:nth-child(10) {
+  left: 38%;
+  animation: raise10 8s linear infinite;
+  animation-delay: 0s;
+  transform: scale(2.4) rotate(347deg);
+  z-index: -7;
+}
+
+@keyframes raise10 {
+  to {
+    bottom: 150vh;
+    transform: scale(2.4) rotate(215deg);
+  }
+}
+/*# sourceMappingURL=index.css.map */

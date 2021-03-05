@@ -1,5 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap');
+
 html {
     box-sizing: border-box;
+    scroll-behavior: smooth;
   }
   
   *, *::before, *::after{
@@ -14,8 +17,11 @@ html {
 
 body{
   background-color: #FFFCFC;
+  font-family: 'Oswald', sans-serif;
+  font-weight: 400;
   font-size: 14px;
-  overflow: hidden;
+  overflow-x: hidden;
+  height: 250vh;
 }
 
 .wrap{
@@ -23,7 +29,7 @@ body{
 }
 
 .svg{
-  stroke:lightgrey;
+  stroke:rgb(160, 160, 160);
   position:absolute;
   bottom: -100vh;
  

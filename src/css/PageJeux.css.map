@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "",
+    "sources": [
+        "../Composants/PageJeux.scss"
+    ],
+    "names": [],
+    "file": "PageJeux.css"
+}

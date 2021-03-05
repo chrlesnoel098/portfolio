@@ -1,0 +1,60 @@
+.Entete {
+  display: flex;
+  position: fixed;
+  text-transform: uppercase;
+}
+
+.Entete div .Logo {
+  width: 15em;
+}
+
+.Entete div h3 {
+  display: flex;
+  justify-content: flex-end;
+  font-size: 1.7em;
+  margin: 0;
+  margin-top: -1.8em;
+  margin-right: 0.5em;
+}
+
+.Entete .navPrincipale {
+  display: flex;
+  justify-content: space-between;
+  writing-mode: vertical-rl;
+  text-orientation: mixed;
+  margin: 0;
+  list-style: none;
+  font-size: 1.5em;
+}
+
+.Entete .navPrincipale a {
+  font-weight: bolder;
+  text-decoration: none;
+  color: black;
+  margin-bottom: 2em;
+  transition: font-weight 250ms;
+}
+
+.Entete .navPrincipale a:hover {
+  font-weight: 400;
+  animation: random 1s infinite;
+}
+
+@keyframes random {
+  15% {
+    color: red;
+  }
+  30% {
+    color: #E4D400;
+  }
+  45% {
+    color: green;
+  }
+  60% {
+    color: blue;
+  }
+  75% {
+    color: #60ffef;
+  }
+}
+/*# sourceMappingURL=Entete.css.map */
