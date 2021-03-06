@@ -1,22 +1,29 @@
 {
   "files": {
-    "main.css": "/chrlesnoel098/portfolio.git/static/css/main.cb5805b6.chunk.css",
-    "main.js": "/chrlesnoel098/portfolio.git/static/js/main.aef2177f.chunk.js",
-    "main.js.map": "/chrlesnoel098/portfolio.git/static/js/main.aef2177f.chunk.js.map",
-    "runtime-main.js": "/chrlesnoel098/portfolio.git/static/js/runtime-main.ba5f4f0d.js",
-    "runtime-main.js.map": "/chrlesnoel098/portfolio.git/static/js/runtime-main.ba5f4f0d.js.map",
-    "static/js/2.cfdb9943.chunk.js": "/chrlesnoel098/portfolio.git/static/js/2.cfdb9943.chunk.js",
-    "static/js/2.cfdb9943.chunk.js.map": "/chrlesnoel098/portfolio.git/static/js/2.cfdb9943.chunk.js.map",
-    "index.html": "/chrlesnoel098/portfolio.git/index.html",
-    "static/css/main.cb5805b6.chunk.css.map": "/chrlesnoel098/portfolio.git/static/css/main.cb5805b6.chunk.css.map",
-    "static/js/2.cfdb9943.chunk.js.LICENSE.txt": "/chrlesnoel098/portfolio.git/static/js/2.cfdb9943.chunk.js.LICENSE.txt",
-    "static/media/Logo.0cfbdb15.png": "/chrlesnoel098/portfolio.git/static/media/Logo.0cfbdb15.png",
-    "static/media/sketchfab.ecfe6e4e.svg": "/chrlesnoel098/portfolio.git/static/media/sketchfab.ecfe6e4e.svg"
+    "main.css": "/static/css/main.8e9c18d2.chunk.css",
+    "main.js": "/static/js/main.fead5ea0.chunk.js",
+    "main.js.map": "/static/js/main.fead5ea0.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.1cc6e178.js",
+    "runtime-main.js.map": "/static/js/runtime-main.1cc6e178.js.map",
+    "static/js/2.73c2ccfb.chunk.js": "/static/js/2.73c2ccfb.chunk.js",
+    "static/js/2.73c2ccfb.chunk.js.map": "/static/js/2.73c2ccfb.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.8e9c18d2.chunk.css.map": "/static/css/main.8e9c18d2.chunk.css.map",
+    "static/js/2.73c2ccfb.chunk.js.LICENSE.txt": "/static/js/2.73c2ccfb.chunk.js.LICENSE.txt",
+    "static/media/Logo.0cfbdb15.png": "/static/media/Logo.0cfbdb15.png",
+    "static/media/graphisme.0d8e046d.png": "/static/media/graphisme.0d8e046d.png",
+    "static/media/jeux.6718917f.png": "/static/media/jeux.6718917f.png",
+    "static/media/sketchfab.ecfe6e4e.svg": "/static/media/sketchfab.ecfe6e4e.svg",
+    "static/media/son.31ca811a.jpg": "/static/media/son.31ca811a.jpg",
+    "static/media/web-auberge.995ce189.png": "/static/media/web-auberge.995ce189.png",
+    "static/media/web-block.e61ca0ba.png": "/static/media/web-block.e61ca0ba.png",
+    "static/media/web-tim.bf24cc5b.png": "/static/media/web-tim.bf24cc5b.png",
+    "static/media/web.6fe649d6.jpg": "/static/media/web.6fe649d6.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.ba5f4f0d.js",
-    "static/js/2.cfdb9943.chunk.js",
-    "static/css/main.cb5805b6.chunk.css",
-    "static/js/main.aef2177f.chunk.js"
+    "static/js/runtime-main.1cc6e178.js",
+    "static/js/2.73c2ccfb.chunk.js",
+    "static/css/main.8e9c18d2.chunk.css",
+    "static/js/main.fead5ea0.chunk.js"
   ]
 }
