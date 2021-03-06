@@ -1,1 +1,92 @@
-/* No CSS *//*# sourceMappingURL=PageWeb.css.map */
+.PageWeb h1,
+.PageWeb h2 {
+  display: flex;
+  justify-content: center;
+  font-size: 5em;
+  font-style: italic;
+  text-transform: uppercase;
+}
+
+.PageWeb h2 {
+  margin-top: -70px;
+  display: flex;
+  -webkit-text-fill-color: rgba(255, 255, 255, 0);
+  /* Will override color (regardless of order) */
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black;
+}
+
+.PageWeb .player-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: -10%;
+}
+
+.PageWeb .section-1 {
+  margin-top: -10vw;
+}
+
+.PageWeb .section-1 .navPrimaire {
+  display: flex;
+  justify-content: space-between;
+  flex-flow: wrap;
+  margin-left: -45px;
+}
+
+.PageWeb .section-1 .navPrimaire li {
+  list-style: none;
+  transition: opacity 500ms;
+}
+
+.PageWeb .section-1 .navPrimaire li:hover img {
+  opacity: 0.7;
+  filter: grayscale(0%);
+}
+
+.PageWeb .section-1 .navPrimaire li:hover .middle {
+  opacity: 1;
+  transform: translate(15px, -180px);
+}
+
+.PageWeb .section-1 .navPrimaire li .middle {
+  transition: .5s ease;
+  opacity: 0;
+  transform: translate(0, -150px);
+}
+
+.PageWeb .section-1 .navPrimaire li .text {
+  color: #ccfa8b;
+  font-size: 3em;
+  font-style: italic;
+  text-shadow: 4px 4px #000000;
+}
+
+.PageWeb .section-1 .navPrimaire li a {
+  text-decoration: none;
+  list-style: none;
+}
+
+.PageWeb .section-1 .navPrimaire li a img {
+  width: 350px;
+  height: 350px;
+  object-fit: cover;
+  filter: grayscale(60%);
+}
+
+.PageWeb .section-2 img {
+  margin: 5px;
+}
+
+.PageWeb .section-2:hover {
+  cursor: zoom-in;
+}
+
+.PageWeb .section-2 img:nth-child(1) {
+  width: 85%;
+}
+
+.PageWeb .section-2 img:nth-child(2) {
+  width: 6%;
+}
+/*# sourceMappingURL=PageWeb.css.map */

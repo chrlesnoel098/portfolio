@@ -1,1 +1,31 @@
-/* No CSS *//*# sourceMappingURL=PageJeux.css.map */
+.PageJeux h1,
+.PageJeux h2 {
+  display: flex;
+  justify-content: center;
+  font-size: 5em;
+  font-style: italic;
+  text-transform: uppercase;
+}
+
+.PageJeux h2 {
+  margin-top: -70px;
+  display: flex;
+  -webkit-text-fill-color: rgba(255, 255, 255, 0);
+  /* Will override color (regardless of order) */
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black;
+}
+
+.PageJeux .section-1 iframe {
+  width: 400px;
+  height: 240px;
+  border: 0;
+}
+
+.PageJeux .section-2 .player-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1.5%;
+}
+/*# sourceMappingURL=PageJeux.css.map */

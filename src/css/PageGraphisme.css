@@ -1,1 +1,79 @@
-/* No CSS *//*# sourceMappingURL=PageGraphisme.css.map */
+.PageGraphisme .fill {
+  -webkit-text-fill-color: rgba(255, 255, 255, 0);
+  /* Will override color (regardless of order) */
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black;
+  margin: 10px;
+}
+
+.PageGraphisme .stoke {
+  -webkit-text-stroke-width: 1px;
+  margin: 10px;
+}
+
+.PageGraphisme h1, .PageGraphisme h2 {
+  text-transform: uppercase;
+  font-size: 2.5em;
+}
+
+.PageGraphisme h1 {
+  margin-top: -120px;
+  margin-left: -25px;
+  margin-bottom: -25px;
+}
+
+.PageGraphisme h2 {
+  margin-left: 20px;
+}
+
+.PageGraphisme h3,
+.PageGraphisme p {
+  font-style: italic;
+  font-size: 1.8em;
+}
+
+.logoTop {
+  margin-top: 15%;
+  margin-bottom: 5%;
+}
+
+.logoTop img {
+  width: 19%;
+}
+
+.logoTop img:hover {
+  cursor: zoom-in;
+}
+
+.contenuLogo {
+  margin-bottom: 15%;
+}
+
+.contenuLogo img {
+  width: 45%;
+  margin: 5px;
+}
+
+.contenuLogo img:hover {
+  cursor: zoom-in;
+}
+
+.top {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  margin-bottom: 20vh;
+}
+
+.top svg.MuiSvgIcon-root {
+  color: black;
+  font-size: 5em;
+  animation: animate 2s infinite ease-out;
+}
+
+.top svg.MuiSvgIcon-root:hover {
+  animation-play-state: paused;
+  color: gray;
+  cursor: pointer;
+}
+/*# sourceMappingURL=PageGraphisme.css.map */

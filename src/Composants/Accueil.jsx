@@ -27,7 +27,7 @@ export default function Accueil() {
 			</div>
 
 			<div id="tagProjet" className="section-2">
-				<div className="navSecondaire">
+				<ul className="navSecondaire">
 					<li>
 						<NavHashLink to="/jeux/#tagTop">
 							<img className="lienJeu" src={jeu} alt="projet de jeu" />
@@ -61,7 +61,7 @@ export default function Accueil() {
 						</div>
 						</NavHashLink>
 					</li>
-				</div>
+				</ul>
 			</div>
 			<div className="player-wrapper">
 				<ReactPlayer
@@ -71,6 +71,8 @@ export default function Accueil() {
 					height="30vw"
 					playing={true}
 					controls={false}
+					muted={true}
+					loop={true}
 				/>
 			</div>
 		</div>
