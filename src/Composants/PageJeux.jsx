@@ -28,8 +28,8 @@ export default function PageJeux() {
             width="65vw"
             height="30vw"
             playing={true}
-            controls={false}
-            muted={true}
+            controls={true}
+            muted={false}
             loop={true}
           />
         </div>

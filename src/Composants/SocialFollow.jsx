@@ -1,7 +1,7 @@
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faLinkedin, faGithub, faBehance } from '@fortawesome/free-brands-svg-icons';
-import sketchfab from './images/sketchfab.svg';
+import sketchfab from '../images/sketchfab.svg';
 
 export default function SocialFollow() {
 	return (

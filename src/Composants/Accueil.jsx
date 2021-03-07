@@ -3,7 +3,7 @@ import React from 'react';
 import { NavHashLink } from 'react-router-hash-link';
 import ExpandMoreIcon from '@material-ui/icons/ExpandMore';
 import ReactPlayer from 'react-player';
-import SocialFollow from '../SocialFollow';
+import SocialFollow from './SocialFollow';
 import jeu from '../images/jeux.png';
 import graphisme from '../images/graphisme.png';
 import son from '../images/son.jpg';
@@ -70,7 +70,7 @@ export default function Accueil() {
 					width="65vw"
 					height="30vw"
 					playing={true}
-					controls={false}
+					controls={true}
 					muted={true}
 					loop={true}
 				/>

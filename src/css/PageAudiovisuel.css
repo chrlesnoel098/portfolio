@@ -1,1 +1,26 @@
-/* No CSS *//*# sourceMappingURL=PageAudiovisuel.css.map */
+.PageAudiovisuel h1,
+.PageAudiovisuel h2 {
+  display: flex;
+  justify-content: center;
+  font-size: 5em;
+  font-style: italic;
+  text-transform: uppercase;
+}
+
+.PageAudiovisuel h2 {
+  margin-top: -70px;
+  display: flex;
+  -webkit-text-fill-color: rgba(255, 255, 255, 0);
+  /* Will override color (regardless of order) */
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black;
+}
+
+.PageAudiovisuel .section-1 {
+  display: flex;
+}
+
+.PageAudiovisuel .section-1 .react-player {
+  display: flex;
+}
+/*# sourceMappingURL=PageAudiovisuel.css.map */
