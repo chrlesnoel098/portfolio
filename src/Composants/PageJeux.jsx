@@ -27,7 +27,7 @@ export default function PageJeux() {
             className="react-player"
             width="65vw"
             height="30vw"
-            playing={true}
+            playing={false}
             controls={true}
             muted={false}
             loop={true}

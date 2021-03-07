@@ -69,7 +69,7 @@ export default function Accueil() {
 					className="react-player"
 					width="65vw"
 					height="30vw"
-					playing={true}
+					playing={false}
 					controls={true}
 					muted={true}
 					loop={true}

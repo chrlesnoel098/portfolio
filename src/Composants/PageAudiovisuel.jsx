@@ -13,7 +13,7 @@ export default function PageAudiovisuel() {
             className="react-player"
             width="30vw"
             height="20vw"
-            playing={true}
+            playing={false}
             controls={true}
             muted={false}
             loop={false}

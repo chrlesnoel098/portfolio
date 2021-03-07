@@ -64,7 +64,7 @@ export default function PageWeb() {
 						className="react-player"
 						width="65vw"
 						height="30vw"
-						playing={true}
+						playing={false}
 						muted={true}
 						loop={true}
 					/>
