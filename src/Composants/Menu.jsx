@@ -17,27 +17,27 @@ export default ({ close }) => (
         </NavLink>
       </li>
       <li>
-        <NavLink onClick={close} activeClassName="current" to="/jeux">
+        <NavLink onClick={close} activeClassName="current" to="/jeux/#tagTop">
           Jeux
         </NavLink>
       </li>
       <li>
-        <NavLink onClick={close} activeClassName="current" to="/graphisme">
+        <NavLink onClick={close} activeClassName="current" to="/graphisme/#tagTop">
           Graphisme
         </NavLink>
       </li>
       <li>
-        <NavLink onClick={close} activeClassName="current" to="/web">
+        <NavLink onClick={close} activeClassName="current" to="/web/#tagTop">
           Web
         </NavLink>
       </li>
       <li>
-        <NavLink onClick={close} activeClassName="current" to="/audiovisuel">
+        <NavLink onClick={close} activeClassName="current" to="/audiovisuel/#tagTop">
           Audiovisuel
         </NavLink>
       </li>
       <li>
-        <NavLink onClick={close} activeClassName="current" to="/contact">
+        <NavLink onClick={close} activeClassName="current" to="/contact/#tagTop">
           Contact
         </NavLink>
       </li>

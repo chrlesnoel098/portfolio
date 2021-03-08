@@ -76,4 +76,26 @@
   color: gray;
   cursor: pointer;
 }
+
+@media (min-width: 521px) and (max-width: 1440px) {
+  .PageGraphisme h1 {
+    display: none;
+  }
+  .PageGraphisme h2 {
+    display: flex;
+    text-transform: uppercase;
+    font-size: 2em;
+  }
+}
+
+@media (max-width: 520px) {
+  .PageGraphisme h1 {
+    display: none;
+  }
+  .PageGraphisme h2 {
+    display: flex;
+    text-transform: uppercase;
+    font-size: 2em;
+  }
+}
 /*# sourceMappingURL=PageGraphisme.css.map */

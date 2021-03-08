@@ -4,14 +4,15 @@
         /* Will override color (regardless of order) */
         -webkit-text-stroke-width: 1px;
         -webkit-text-stroke-color: black;
-        margin: 10px;
     }
     .stoke{
         -webkit-text-stroke-width: 1px;
-        margin: 10px;
     }
 
     h1,h2{
+		display: flex;
+		justify-content: center;
+		flex-flow: wrap;
         text-transform: uppercase;
         font-size: 2.5em;
     }
@@ -75,10 +76,46 @@
 
 // ******************************************************************Tablette******************************************************************
 @media (min-width: 521px) and (max-width: 1440px) {
-
+	.PageGraphisme {
+		h1{
+			display: none;
+		
+		}
+	h2{
+		display: flex;
+		flex-flow: wrap;
+		justify-content: center;
+        text-transform: uppercase;
+        font-size: 3em;
+    }}
 }
 
 // ******************************************************************Mobile******************************************************************
 @media (max-width: 520px) { 
+	.PageGraphisme {
+		h1{
+			display: none;
+		}
+	h2{
+		display: flex;
+		justify-content: center;
+		flex-flow: wrap;
+        text-transform: uppercase;
+        font-size: 1.2em;
+    }
+	h3{
+		font-size: 1.5em;
+	}
+	p{
+		font-size: 1.5em;
+	}
+}
+}
 
+// ******************************************************************Mobile petit format******************************************************************
+@media only screen and (max-width: 361px) {
+	.PageGraphisme {
+	h2{
+        font-size: 1em;
+    }}
 }

@@ -2,6 +2,7 @@ import './PageAudiovisuel.scss';
 import ReactPlayer from 'react-player';
 import ArrowUpwardIcon from '@material-ui/icons/ArrowUpward';
 import { NavHashLink } from 'react-router-hash-link';
+import ExpandMoreIcon from '@material-ui/icons/ExpandMore';
 
 export default function PageAudiovisuel() {
   return (
@@ -34,8 +35,12 @@ export default function PageAudiovisuel() {
           />
         </div>
       </div>
-      
-      <h1>Montage audio/visuel</h1>
+      <div className="plus">
+					<NavHashLink to="/audiovisuel/#tagProjet">
+						<ExpandMoreIcon />
+					</NavHashLink>
+				</div>
+      <h1 id="tagProjet">Montage audio/visuel</h1>
       <h2>Adobe After Effects</h2>
 
       <div className="section-2">
