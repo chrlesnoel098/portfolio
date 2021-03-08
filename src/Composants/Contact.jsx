@@ -11,7 +11,7 @@ class Contact extends Component {
   }
   handleSubmit(e) {
     e.preventDefault()
-    const { name, email, subject, message } = this.state
+    const { /*name,*/ email, subject, message } = this.state
     let templateParams = {
       from_name: email,
       to_name: '<YOUR_EMAIL_ID>',
