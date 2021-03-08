@@ -1,29 +1,29 @@
 {
   "files": {
-    "main.css": "/static/css/main.e58fa625.chunk.css",
-    "main.js": "/static/js/main.59ee6a50.chunk.js",
-    "main.js.map": "/static/js/main.59ee6a50.chunk.js.map",
+    "main.css": "/static/css/main.964957c7.chunk.css",
+    "main.js": "/static/js/main.a6e5642d.chunk.js",
+    "main.js.map": "/static/js/main.a6e5642d.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.1cc6e178.js",
     "runtime-main.js.map": "/static/js/runtime-main.1cc6e178.js.map",
-    "static/js/2.f858a47f.chunk.js": "/static/js/2.f858a47f.chunk.js",
-    "static/js/2.f858a47f.chunk.js.map": "/static/js/2.f858a47f.chunk.js.map",
+    "static/js/2.573e28de.chunk.js": "/static/js/2.573e28de.chunk.js",
+    "static/js/2.573e28de.chunk.js.map": "/static/js/2.573e28de.chunk.js.map",
     "index.html": "/index.html",
-    "static/css/main.e58fa625.chunk.css.map": "/static/css/main.e58fa625.chunk.css.map",
-    "static/js/2.f858a47f.chunk.js.LICENSE.txt": "/static/js/2.f858a47f.chunk.js.LICENSE.txt",
+    "static/css/main.964957c7.chunk.css.map": "/static/css/main.964957c7.chunk.css.map",
+    "static/js/2.573e28de.chunk.js.LICENSE.txt": "/static/js/2.573e28de.chunk.js.LICENSE.txt",
     "static/media/Logo.0cfbdb15.png": "/static/media/Logo.0cfbdb15.png",
-    "static/media/graphisme.0d8e046d.png": "/static/media/graphisme.0d8e046d.png",
-    "static/media/jeux.6718917f.png": "/static/media/jeux.6718917f.png",
+    "static/media/graphisme.7899bb4a.png": "/static/media/graphisme.7899bb4a.png",
+    "static/media/jeux.32d55f31.png": "/static/media/jeux.32d55f31.png",
     "static/media/sketchfab.ecfe6e4e.svg": "/static/media/sketchfab.ecfe6e4e.svg",
-    "static/media/son.31ca811a.jpg": "/static/media/son.31ca811a.jpg",
-    "static/media/web-auberge.995ce189.png": "/static/media/web-auberge.995ce189.png",
-    "static/media/web-block.e61ca0ba.png": "/static/media/web-block.e61ca0ba.png",
-    "static/media/web-tim.bf24cc5b.png": "/static/media/web-tim.bf24cc5b.png",
-    "static/media/web.6fe649d6.jpg": "/static/media/web.6fe649d6.jpg"
+    "static/media/son.446641e9.jpg": "/static/media/son.446641e9.jpg",
+    "static/media/web-auberge.05c067b5.png": "/static/media/web-auberge.05c067b5.png",
+    "static/media/web-block.e0cb32c3.png": "/static/media/web-block.e0cb32c3.png",
+    "static/media/web-tim.42d516c8.png": "/static/media/web-tim.42d516c8.png",
+    "static/media/web.aceb23ec.jpg": "/static/media/web.aceb23ec.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.1cc6e178.js",
-    "static/js/2.f858a47f.chunk.js",
-    "static/css/main.e58fa625.chunk.css",
-    "static/js/main.59ee6a50.chunk.js"
+    "static/js/2.573e28de.chunk.js",
+    "static/css/main.964957c7.chunk.css",
+    "static/js/main.a6e5642d.chunk.js"
   ]
 }
