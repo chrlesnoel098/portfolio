@@ -23,6 +23,18 @@ const options = {
 export default function PageWeb() {
 	return (
 		<div className="PageWeb">
+			<div className="section-2">
+				<h1>infographie et maquette</h1>
+				<h2>adobe xd</h2>
+
+				<SRLWrapper options={options}>
+					<div>
+						<img src={process.env.PUBLIC_URL + '/images-web/img-web-1.png'} alt="" />
+						<img src={process.env.PUBLIC_URL + '/images-web/img-web-2.png'} alt="" />
+					</div>
+				</SRLWrapper>
+			</div>
+
 			<div className="section-1">
 				<h1>Programmation web</h1>
 				<h2>html / css / php / javascript</h2>
@@ -72,17 +84,6 @@ export default function PageWeb() {
 
 			</div>
 
-			<div className="section-2">
-				<h1>infographie et maquette</h1>
-				<h2>adobe xd</h2>
-
-				<SRLWrapper options={options}>
-					<div>
-						<img src={process.env.PUBLIC_URL + '/images-web/img-web-1.png'} alt="" />
-						<img src={process.env.PUBLIC_URL + '/images-web/img-web-2.png'} alt="" />
-					</div>
-				</SRLWrapper>
-			</div>
 
 		</div>
 	);

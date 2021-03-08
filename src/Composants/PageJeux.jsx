@@ -40,7 +40,7 @@ export default function PageJeux() {
         <div className="player-wrapper">
         <div className="texte">
           <h3>Assemblage du jeu Warp Odessey</h3>
-          <p>Création d’assemblage de jeu 3D. Expansion de l’univers Warp Odessey dans le cadredu cours d’assemblage de jeu 3D, jeu de type Railroad arcade. <br /><br />
+          <p>Création de jeu 3D. Expansion de l’univers Warp Odessey dans le cadre du cours d’assemblage de jeu 3D, jeu de type Railroad arcade. <br /><br />
 Domaine : Assemblage de jeu. <br /><br />
 Technique : Level Design, physique 3D, interactivité C#.</p>
           </div>
@@ -60,7 +60,7 @@ Technique : Level Design, physique 3D, interactivité C#.</p>
           <h3>Assemblage du jeu Toxic City</h3>
           <p>*Travail réalisé en équipe avec la collaboration de : 
 Antoine L’écuyer, Dalianne Gosselin, Kevin Ponce Mélendez.  <br /><br />
-Création d’assemblage de jeu 2D. Dans le cadre du cours projet jeu, jeu de type RPG turnbase pixel art qui se déroule dans l'univers de Toxic City. <br /><br />
+Création de jeu 2D. Dans le cadre du cours projet jeu, jeu de type RPG turnbase pixel art qui se déroule dans l'univers de Toxic City. <br /><br />
 Domaine : Assemblage de jeu. <br /><br />
 Technique : Level Design, physique 2D, interactivité C#. <br /><br />
 Rôle : Gestionnaire de projet, concepteur sonore, programmeur général.</p>
