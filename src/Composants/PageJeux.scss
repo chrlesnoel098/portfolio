@@ -1,5 +1,5 @@
-.PageJeux{
-    h1,
+.PageJeux {
+	h1,
 	h2 {
 		display: flex;
 		justify-content: center;
@@ -16,32 +16,141 @@
 		-webkit-text-stroke-width: 1px;
 		-webkit-text-stroke-color: black;
 	}
-    
-    .section-1{
-    iframe{
-        width: 400px;
-        height: 240px;
-        border: 0;
-    }
-    }
-    
 
-    .section-2{
-        .player-wrapper {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            margin-top: 1.5%;
-        }
-    }
+	.section-1 {
+        h1:nth-child(1) {
+			margin-top: -200px;
+		}
+		iframe {
+			width: 100%;
+			height: auto;
+			border: 0;
+		}
+	}
+
+	.section-3 {
+		.player-wrapper {
+			display: flex;
+			justify-content: space-between;
+			margin-top: 1.5%;
+		}
+		.texte {
+			width: 50%;
+			text-align: justify;
+			text-justify: inter-word;
+		}
+		h3 {
+			font-size: 1.8em;
+		}
+		p {
+			width: 70%;
+			font-weight: bold;
+			line-height: 1.5;
+			word-spacing: 4px;
+			writing-mode: inherit;
+		}
+	}
 }
-
 // ******************************************************************Tablette******************************************************************
 @media (min-width: 521px) and (max-width: 1440px) {
+	.PageJeux {
+		.section-1 {
+            h1:nth-child(1) {
+                margin-top: 10px;
+            }
+			iframe {
+				width: 100%;
+				height: 340px;
+				border: 0;
+			}
+		}
 
+		.react-player {
+			height: 50vw !important;
+			width: 100% !important;
+		}
+		.section-1 {
+			display: flex;
+			flex-flow: wrap;
+		}
+
+		h1,
+		h2 {
+			font-size: 3em;
+		}
+		h2 {
+			margin-top: -20px;
+		}
+	}
+	.section-3 {
+		.player-wrapper {
+			display: flex;
+			justify-content: center;
+			flex-direction: column;
+			margin-top: 1.5%;
+            .texte {
+                width: 90%;
+            }
+            p {
+                width: 100%;
+            }
+		}
+     
+	}
 }
 
 // ******************************************************************Mobile******************************************************************
-@media (max-width: 520px) { 
+@media (max-width: 520px) {
+	.PageJeux {
+		.section-1 {
+            h1:nth-child(1) {
+                margin-top: 15px;
+            }
+			iframe {
+				width: auto;
+				height: 240px;
+				border: 0;
+			}
+		}
+		.react-player {
+			height: 50vw !important;
+			width: 100% !important;
+		}
+		.section-1 {
+			display: flex;
+			flex-flow: wrap;
+		}
 
+		h1,
+		h2 {
+			font-size: 2em;
+		}
+		h2 {
+			margin-top: -20px;
+		}
+	}
+	.section-3 {
+		.player-wrapper {
+			display: flex;
+			justify-content: center;
+			flex-direction: column;
+			margin-top: 1.5%;
+            .texte {
+                width: 100%;
+            }
+            p {
+                width: 100%;
+            }
+		}
+       
+	}
+}
+
+// ******************************************************************Mobile petit format******************************************************************
+@media only screen and (max-width: 361px) {
+	.PageJeux {
+		h1:nth-child(1) {
+			margin-top: 35px;
+		}
+	}
 }

@@ -53,23 +53,55 @@
   display: block;
   text-align: center;
   padding: 0px;
+  .player-wrapper {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		margin-top: 1%;
+    .react-player {
+			height: auto !important;
+			width: 100vw  !important;
+		}
+	}
 }
 .menu ul {
   position: relative;
   top: 0px;
-  font-size: 24px;
+  font-size: 20px;
   padding: 0px;
+  text-decoration: none;
+  list-style: outside none none;
 }
 .menu li {
-  list-style: outside none none;
-  margin: 10px 0px;
+  margin: 10px;
   padding: 0;
-  cursor: pointer;
-}
-.menu li:hover {
-  color: #ff0000;
 }
 
+.menu li a{
+  color: #333;
+  text-decoration: none;
+  list-style: outside none none;
+
+  cursor: pointer;
+}
+.menu li a:hover {
+
+    font-weight: 400;
+    animation: random 1s infinite;
+   
+   }
+
+@keyframes random {
+    15% { color: rgb(126, 57, 57); } 
+    30% { color: #6a652a; } 
+    45% { color: rgb(102, 109, 78); } 
+    60% { color: rgb(109, 56, 56); }
+    75% { color: rgb(87, 146, 140); } 
+}
+
+.Logo {
+  width: 10em;
+}
 // ******************************************************************Tablette******************************************************************
 @media (min-width: 521px) and (max-width: 1440px) {
 
