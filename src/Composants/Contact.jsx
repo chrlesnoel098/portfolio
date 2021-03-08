@@ -40,7 +40,7 @@ class Contact extends Component {
   render() {
     return (
       <>
-        <h1 className="p-heading1">Contact</h1>
+        <h1 className="p-heading1">Page Contact en construction...</h1>
         <Form onSubmit={this.handleSubmit.bind(this)}>
           <FormGroup controlId="formBasicEmail">
             <Label className="text-muted">Email address</Label>

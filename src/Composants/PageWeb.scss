@@ -28,7 +28,8 @@
 		.navPrimaire {
 			display: flex;
 			justify-content: space-between;
-			flex-flow: wrap;
+			align-items: center;
+			flex-direction: row;
 			margin-left: -45px;
 
 			li {
@@ -80,7 +81,7 @@
 			cursor: zoom-in;
 		}
 		img:nth-child(1){
-			width: 85%;
+			width: 90%;
 		}
 		img:nth-child(2){
 			width: 6%;
@@ -90,10 +91,75 @@
 
 // ******************************************************************Tablette******************************************************************
 @media (min-width: 521px) and (max-width: 1440px) {
-
+	.PageWeb {
+		h1,
+		h2 {
+			font-size: 4em;
+		}
+		
+	h2 {
+		margin-top: -30px;
+	}
+		.section-1 {
+	.navPrimaire {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		flex-direction: column;
+		li{	
+			.middle {
+				opacity: 1;
+			}
+		}
+		.player-wrapper {
+			display: flex;
+			justify-content: center;
+			align-items: center;
+		.react-player {
+				height: auto !important;
+				width: 100vw  !important;
+			}
+		}
+	}
+}
+}
 }
 
 // ******************************************************************Mobile******************************************************************
 @media (max-width: 520px) { 
+	.PageWeb {
+		h1,
+		h2 {
+			font-size: 2em;
+		}
+			
+	h2 {
+		margin-top: -20px;
+	}
+		.section-1 {
+			margin-top: 20%;
+			.player-wrapper {
+				display: flex;
+				justify-content: center;
+				align-items: center;
 
+			.react-player {
+					height: 50vw  !important;
+					width: 100vw  !important;
+				}
+			}
+	.navPrimaire {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		flex-direction: column;
+		li{	
+			.middle {
+				opacity: 1;
+			}
+		}
+		
+	}
+}
+}
 }
