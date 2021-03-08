@@ -1,5 +1,12 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faReact } from '@fortawesome/free-brands-svg-icons';
+
+  // Obtenir l'année courante
+  const annee = (new Date()).getFullYear();
+
+  
 // eslint-disable-next-line
 export default ({ close }) => (
   <div className="menu">
@@ -35,5 +42,6 @@ export default ({ close }) => (
         </NavLink>
       </li>
     </ul>
+    <p>Charles Noel Portfolio 	<FontAwesomeIcon icon={faReact} size="2x" /> / / react &copy; {annee}</p> 
   </div>
 );

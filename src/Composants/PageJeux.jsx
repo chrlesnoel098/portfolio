@@ -37,6 +37,39 @@ export default function PageJeux() {
       <div className="section-3">
         <h1>Assemblage de jeu</h1>
         <h2>Unity c#</h2>
+        <div className="player-wrapper">
+        <div className="texte">
+          <h3>Assemblage du jeu Warp Odessey</h3>
+          <p>description</p>
+          </div>
+          <ReactPlayer
+            url="https://www.youtube.com/watch?v=qIjO7g0-mwc&t=60s"
+            className="react-player"
+            width="35vw"
+            height="20vw"
+            playing={false}
+            controls={true}
+            muted={false}
+            loop={true}
+          />
+        </div>
+        <div className="player-wrapper">
+          <div className="texte">
+          <h3>Assemblage du jeu Toxic City</h3>
+          <p>description</p>
+          </div>
+        
+          <ReactPlayer
+            url="https://youtu.be/ut3IahsaD3E"
+            className="react-player"
+            width="35vw"
+            height="20vw"
+            playing={false}
+            controls={true}
+            muted={false}
+            loop={true}
+          />
+        </div>
       </div>
     </div>
   );

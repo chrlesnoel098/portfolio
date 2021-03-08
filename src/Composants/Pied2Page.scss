@@ -1,4 +1,5 @@
 footer{
+    display: block;
     position: fixed;
     font-size: 0.8em;
     bottom: 2%;  
@@ -6,4 +7,18 @@ footer{
     background-color: transparent;
     border: none;
     text-transform: uppercase;
+}
+
+// ******************************************************************Tablette******************************************************************
+@media (min-width: 521px) and (max-width: 1440px) {
+footer{
+    display: none;
+}
+}
+
+// ******************************************************************Mobile******************************************************************
+@media (max-width: 520px) { 
+    footer{
+        display: none;
+    }
 }

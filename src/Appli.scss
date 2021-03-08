@@ -10,7 +10,7 @@
 
 .burger-menu,
 .burger-menu.open {
-  display: inline-block;
+  display: none;
   cursor: pointer;
   position: fixed;
   right: 20px;
@@ -68,4 +68,33 @@
 }
 .menu li:hover {
   color: #ff0000;
+}
+
+// ******************************************************************Tablette******************************************************************
+@media (min-width: 521px) and (max-width: 1440px) {
+
+  .App{
+    padding-left: 15%;
+}
+  .burger-menu,
+  .burger-menu.open {
+    display: inline-block;
+  }
+}
+
+// ******************************************************************Mobile******************************************************************
+@media (max-width: 520px) { 
+  .App{
+    padding-left: 15%;
+}
+  .burger-menu,
+  .burger-menu.open {
+    display: inline-block;
+  }
+}
+
+@media only screen and (max-width: 361px) {
+  .App{
+    padding-left: 15%;
+}
 }

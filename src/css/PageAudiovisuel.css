@@ -20,7 +20,7 @@
   display: flex;
 }
 
-.PageAudiovisuel .section-1 .react-player {
-  display: flex;
+.PageAudiovisuel .section-1 .player-wrapper {
+  margin: 30px;
 }
 /*# sourceMappingURL=PageAudiovisuel.css.map */

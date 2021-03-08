@@ -9,11 +9,11 @@
 
 .burger-menu,
 .burger-menu.open {
-  display: inline-block;
+  display: none;
   cursor: pointer;
   position: fixed;
   right: 20px;
-  bottom: 40px;
+  top: 40px;
   z-index: 9999;
   background: #fff;
   padding: 10px;
@@ -67,5 +67,31 @@
 
 .menu li:hover {
   color: #ff0000;
+}
+
+@media (min-width: 521px) and (max-width: 1440px) {
+  .App {
+    padding-left: 15%;
+  }
+  .burger-menu,
+  .burger-menu.open {
+    display: inline-block;
+  }
+}
+
+@media (max-width: 520px) {
+  .App {
+    padding-left: 15%;
+  }
+  .burger-menu,
+  .burger-menu.open {
+    display: inline-block;
+  }
+}
+
+@media only screen and (max-width: 361px) {
+  .App {
+    padding-left: 15%;
+  }
 }
 /*# sourceMappingURL=Appli.css.map */

@@ -77,4 +77,16 @@
     color: #57928c;
   }
 }
+
+@media (min-width: 521px) and (max-width: 1440px) {
+  .Entete .Logo, .Entete .navPrincipale, .Entete .navWidget {
+    display: none;
+  }
+}
+
+@media (max-width: 520px) {
+  .Entete .Logo, .Entete .navPrincipale, .Entete .navWidget {
+    display: none;
+  }
+}
 /*# sourceMappingURL=Entete.css.map */

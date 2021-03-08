@@ -1,5 +1,7 @@
 import './PageAudiovisuel.scss';
 import ReactPlayer from 'react-player';
+import ArrowUpwardIcon from '@material-ui/icons/ArrowUpward';
+import { NavHashLink } from 'react-router-hash-link';
 
 export default function PageAudiovisuel() {
   return (
@@ -50,7 +52,11 @@ export default function PageAudiovisuel() {
           />
         </div>
       </div>
-
+			<div className="top">
+				<NavHashLink to="/audiovisuel/#tagTop">
+					<ArrowUpwardIcon />
+				</NavHashLink>
+			</div>
     </div>
   );
 }

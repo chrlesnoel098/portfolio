@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap');
 @import-normalize;
 
+
 html {
     box-sizing: border-box;
     scroll-behavior: smooth;
@@ -22,7 +23,7 @@ body{
   font-weight: 400;
   font-size: 14px;
   overflow-x: hidden;
-  height: 250vh;
+  height: auto;
 }
 
 .wrap{
@@ -31,7 +32,7 @@ body{
 
 .svg{
   stroke:rgb(160, 160, 160);
-  position:absolute;
+  position:fixed;
   bottom: -100vh;
  
 }
@@ -41,7 +42,7 @@ $total: 10;
   $scale:random(2) - .4;
   
   .svg:nth-child(#{$i}){
-    left:random(120) * 1% - 20;
+    left:random(100) * 1% - 20;
     animation: raise#{$i} 6 + random(15) +s linear infinite;
     animation-delay:random(15) - 15 + s;
     transform: scale(.3 * $i - .6) rotate(random(360) + deg);
@@ -54,4 +55,14 @@ $total: 10;
       }
     }
   }
+}
+
+// ******************************************************************Tablette******************************************************************
+@media (min-width: 521px) and (max-width: 1440px) {
+
+}
+
+// ******************************************************************Mobile******************************************************************
+@media (max-width: 520px) { 
+
 }

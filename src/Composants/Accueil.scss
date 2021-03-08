@@ -1,5 +1,5 @@
 .Accueil {
-	height: 100vh;
+	// height: 100vh;
 
 	.section-1 {
 		display: flex;
@@ -23,6 +23,16 @@
 			-webkit-text-stroke-color: black;
 			font-style: italic;
 			font-size: 3em;
+		}
+
+		h3 {
+			font-size: 3em;
+			margin-bottom: -1.5em;
+			font-style: italic;
+			color: rgb(109, 56, 56);
+		}
+		.titreMobile {
+			display: none;
 		}
 
 		.plus {
@@ -111,13 +121,15 @@
 		top: -250px;
 
 		.navSecondaire {
-			margin-top: 80vh;
+			margin-top: 30vh;
 			display: flex;
 			justify-content: flex-end;
+			align-items: flex-end;
+			flex-direction: row;
 
 			li {
 				list-style: none;
-				margin: 0 0 0 25px;
+				// margin: 0 0 0 25px;
 				transition: opacity 500ms;
 
 				&:hover img {
@@ -149,7 +161,7 @@
 					text-decoration: none;
 					list-style: none;
 				}
-				
+
 				a img {
 					width: 250px;
 					height: 250px;
@@ -188,7 +200,7 @@ text set in the data-text attribute. */
 	color: rgb(0, 0, 0);
 	/* Animation provies a slight random skew. Check bottom of doc
 for more information on how to random skew. */
-	animation: glitch-skew 1s forwards ease-in-out alternate-reverse;
+	animation: glitch-skew 1s infinite forwards alternate-reverse;
 
 	// Creates a copy before our text.
 	&::before {
@@ -204,7 +216,7 @@ for more information on how to random skew. */
 		clip: rect(44px, 450px, 56px, 0);
 		/* Runs our glitch-anim defined below to run in a 5s loop, infinitely,
   with an alternating animation to keep things fresh. */
-		animation: glitch-anim 5s forwards ease-in-out alternate-reverse;
+		animation: glitch-anim 5s infinite forwards alternate-reverse;
 	}
 
 	// Creates a copy after our text. Note comments from ::before.
@@ -212,7 +224,7 @@ for more information on how to random skew. */
 		@include glitchCopy;
 		left: -2px;
 		text-shadow: -2px 0 #5e5e5e, 2px 2px #bababa;
-		animation: glitch-anim2 5s forwards ease-in-out alternate-reverse;
+		animation: glitch-anim2 5s infinite forwards alternate-reverse;
 	}
 }
 
@@ -251,5 +263,130 @@ skew to change the 'thickness' of the glitch.*/
 		#{percentage($i*(1/$steps))} {
 			transform: skew((random(10) - 5) + deg);
 		}
+	}
+}
+
+// ******************************************************************Tablette******************************************************************
+@media (min-width: 521px) and (max-width: 1440px) {
+	.Accueil {
+		.section-1{
+			margin-top: 25%;
+			}	
+	.react-player {
+		display: none;
+	}
+		.section-2 {
+			margin-top: 0vh;
+			.navSecondaire {
+				display: flex;
+				justify-content: center;
+				align-items: center;
+				flex-direction: column;
+				margin-left: -5%;
+				li {
+					&:hover .middle {
+						transform: translate(155px, -380px);
+					}
+					.middle {
+						opacity: 1;
+						transform: translate(55px, -350px);
+					}
+					a img {
+						width: 550px;
+						height: 450px;
+					}
+				}
+			}
+	}
+		.section-1 {
+			.titreMobile {
+				display: flex;
+			}
+			
+		}
+	}
+
+}
+
+// ******************************************************************Mobile******************************************************************
+@media (max-width: 520px) {
+	.Accueil {
+		.section-1{
+			margin-top: 25%;
+				h1, h2{
+					font-size: 2.5em;
+				}
+			}
+		
+		.react-player {
+			display: none;
+		}
+		.section-2 {
+			margin-top: 0vh;
+			.navSecondaire {
+				display: flex;
+				justify-content: center;
+				align-items: center;
+				flex-direction: column;
+				margin-left: -5%;
+				li {
+					&:hover .middle {
+						transform: translate(185px, -180px);
+					}
+	
+					.middle {
+						opacity: 1;
+						transform: translate(85px, -150px);
+					}
+					a img {
+						width: 550px;
+						height: 350px;
+					}
+				}
+			}
+	}
+		.section-1 {
+			.titreMobile {
+				display: flex;
+			}
+		}
+	}
+
+}
+// ******************************************************************Mobile petit format******************************************************************
+@media only screen and (max-width: 361px) {
+	.Accueil {
+		
+		.section-1{
+			h1, h2{
+				font-size: 2em;
+			}
+		}
+		.section-2 {
+			margin-top: 0vh;
+			
+			.navSecondaire {
+				display: flex;
+				justify-content: center;
+				align-items: center;
+				flex-direction: column;
+				margin-left: -5%;
+				li {
+					&:hover .middle {
+						transform: translate(100px, -280px);
+					}
+	
+					.middle {
+						opacity: 1;
+						transform: translate(45px, -250px);
+					}
+					a img {
+						width: 380px;
+						height: 350px;
+					}
+				}
+			}
+	}
+		
 	}
 }
