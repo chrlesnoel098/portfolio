@@ -18,7 +18,7 @@ export default function Accueil() {
 				</h1>
 				<h2>Designer / intégrateur</h2>
 				<SocialFollow />
-
+				<h3 className="titreMobile">Charles Noël</h3>
 				<div className="plus">
 					<NavHashLink to="/#tagProjet">
 						<ExpandMoreIcon />
@@ -65,7 +65,7 @@ export default function Accueil() {
 			</div>
 			<div className="player-wrapper">
 				<ReactPlayer
-					url="https://www.youtube.com/watch?v=qIjO7g0-mwc&t=60s"
+					url="https://youtu.be/YwFwKomah3E"
 					className="react-player"
 					width="65vw"
 					height="30vw"
