@@ -16,6 +16,7 @@ export default function PageAudiovisuel() {
             className="react-player"
             width="30vw"
             height="20vw"
+            allow='autoplay; encrypted-media'
             playing={false}
             controls={true}
             muted={false}
@@ -28,6 +29,7 @@ export default function PageAudiovisuel() {
             className="react-player"
             width="30vw"
             height="20vw"
+            allow='autoplay; encrypted-media'
             playing={false}
             controls={true}
             muted={false}
@@ -50,6 +52,8 @@ export default function PageAudiovisuel() {
             className="react-player"
             width="65vw"
 						height="30vw"
+            allow='autoplay; encrypted-media'
+            frameborder="1" 
             playing={false}
             controls={true}
             muted={false}

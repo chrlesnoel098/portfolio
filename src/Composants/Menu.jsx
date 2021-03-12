@@ -53,6 +53,7 @@ export default ({ close }) => (
 					className="react-player"
 					width="25vw"
 					height="10vw"
+          allow='autoplay; encrypted-media'
 					playing={true}
 					controls={true}
 					muted={true}

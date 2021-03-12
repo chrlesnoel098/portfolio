@@ -72,10 +72,11 @@ export default function PageWeb() {
 
 				<div className="player-wrapper">
 					<ReactPlayer
-						url="https://www.youtube.com/watch?v=V4v_-VtWItM"
+						url="https://youtube.com/watch?v=V4v_-VtWItM"
 						className="react-player"
 						width="65vw"
 						height="30vw"
+						allow='autoplay; encrypted-media'
 						playing={true}
 						muted={true}
 						loop={true}

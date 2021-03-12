@@ -23,10 +23,11 @@ export default function PageJeux() {
         <h2>Maya</h2>
         <div className="player-wrapper">
           <ReactPlayer
-            url="https://www.youtube.com/watch?v=ojaCdzYPXD0"
+            url="https://youtube.com/watch?v=ojaCdzYPXD0"
             className="react-player"
             width="65vw"
             height="30vw"
+            allow='autoplay; encrypted-media'
             playing={false}
             controls={true}
             muted={false}
@@ -45,10 +46,11 @@ Domaine : Assemblage de jeu. <br /><br />
 Technique : Level Design, physique 3D, interactivité C#.</p>
           </div>
           <ReactPlayer
-            url="https://www.youtube.com/watch?v=qIjO7g0-mwc&t=60s"
+            url="https://youtube.com/watch?v=qIjO7g0-mwc&t=60s"
             className="react-player"
             width="35vw"
             height="20vw"
+            allow='autoplay; encrypted-media'
             playing={false}
             controls={true}
             muted={false}
@@ -71,6 +73,7 @@ Rôle : Gestionnaire de projet, concepteur sonore, programmeur général.</p>
             className="react-player"
             width="35vw"
             height="20vw"
+            allow='autoplay; encrypted-media'
             playing={false}
             controls={true}
             muted={false}

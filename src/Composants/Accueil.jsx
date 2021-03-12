@@ -65,11 +65,12 @@ export default function Accueil() {
 			</div>
 			<div className="player-wrapper">
 				<ReactPlayer
-					url="https://youtu.be/YwFwKomah3E"
+					url="https://www.youtu.be/YwFwKomah3E"
 					className="react-player"
 					width="65vw"
 					height="30vw"
-					playing={true}
+					allow='autoplay; encrypted-media'
+					playing={false}
 					controls={true}
 					muted={true}
 					loop={true}
