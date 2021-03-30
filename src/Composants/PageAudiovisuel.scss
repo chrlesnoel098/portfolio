@@ -55,19 +55,13 @@
 		}
 	}
 
-	.section-1 {
+	.section-1, .section-2 {
 		display: flex;
-		justify-content: center;
+		justify-content: space-around;
 		align-items: center;
 		.player-wrapper {
 			margin: 30px;
 		}
-	}
-
-	.section-2 {
-		display: flex;
-		justify-content: center;
-		align-items: center;
 	}
 	
 }
@@ -77,6 +71,15 @@
 	.PageAudiovisuel {
 		h1:nth-child(1){
 			margin-top: 0px;
+		}
+		.react-player {
+			height: auto !important;
+			width: 80vw  !important;
+			height: 30vw !important;
+		}
+		.section-1, .section-2 {
+			display: flex;
+			flex-flow: wrap;
 		}
 		
 		h1,
@@ -106,7 +109,7 @@
 			height: auto !important;
 			width: 100vw  !important;
 		}
-		.section-1 {
+		.section-1, .section-2 {
 			display: flex;
 			flex-flow: wrap;
 		}

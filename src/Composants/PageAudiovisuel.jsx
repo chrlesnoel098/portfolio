@@ -48,12 +48,26 @@ export default function PageAudiovisuel() {
       <h2>Adobe After Effects</h2>
 
       <div className="section-2">
-      <div className="player-wrapper">
+        <div className="player-wrapper">
           <ReactPlayer
-            url="https://www.youtube.com/embed/0zUWLce8B2s"
+             url="https://www.youtube.com/embed/0zUWLce8B2s"
             className="react-player"
-            width="65vw"
-						height="30vw"
+            width="30vw"
+            height="20vw"
+            allow='autoplay; encrypted-media'
+            playing={false}
+            controls={true}
+            muted={true}
+            loop={true}
+            config={{ youtube: { playerVars: { showinfo: 1 } }}} 
+          />
+        </div>
+        <div className="player-wrapper">
+          <ReactPlayer
+            url="https://www.youtube.com/embed/m_AFwwJTuAE"
+            className="react-player"
+            width="30vw"
+            height="20vw"
             allow='autoplay; encrypted-media'
             playing={false}
             controls={true}

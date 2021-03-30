@@ -65,7 +65,7 @@ export default function Accueil() {
 			</div>
 			<div className="player-wrapper">
 				<ReactPlayer
-					url="https://www.youtube.com/embed/m_AFwwJTuAE"
+					url="https://www.youtube.com/embed/YwFwKomah3E"
 					className="react-player"
 					width="65vw"
 					height="30vw"
