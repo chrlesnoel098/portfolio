@@ -30,8 +30,10 @@ export default function PageJeux() {
             allow='autoplay; encrypted-media'
             playing={false}
             controls={true}
-            muted={false}
+            muted={true}
             loop={true}
+            config={{ youtube: { playerVars: { showinfo: 1 } }}} 
+            onReady={this.handleReady}
           />
         </div>
       </div>
@@ -53,8 +55,10 @@ Technique : Level Design, physique 3D, interactivité C#.</p>
             allow='autoplay; encrypted-media'
             playing={false}
             controls={true}
-            muted={false}
+            muted={true}
             loop={true}
+            config={{ youtube: { playerVars: { showinfo: 1 } }}} 
+            onReady={this.handleReady}
           />
         </div>
         <div className="player-wrapper">
@@ -76,8 +80,9 @@ Rôle : Gestionnaire de projet, concepteur sonore, programmeur général.</p>
             allow='autoplay; encrypted-media'
             playing={false}
             controls={true}
-            muted={false}
+            muted={true}
             loop={true}
+            config={{ youtube: { playerVars: { showinfo: 1 } }}} 
           />
         </div>
       </div>

@@ -77,9 +77,11 @@ export default function PageWeb() {
 						width="65vw"
 						height="30vw"
 						allow='autoplay; encrypted-media'
-						playing={true}
-						muted={true}
-						loop={true}
+						playing={false}
+					controls={true}
+					muted={true}
+					loop={true}
+					config={{ youtube: { playerVars: { showinfo: 1 } }}} 
 					/>
 				</div>
 

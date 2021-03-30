@@ -19,8 +19,9 @@ export default function PageAudiovisuel() {
             allow='autoplay; encrypted-media'
             playing={false}
             controls={true}
-            muted={false}
-            loop={false}
+            muted={true}
+            loop={true}
+            config={{ youtube: { playerVars: { showinfo: 1 } }}} 
           />
         </div>
         <div className="player-wrapper">
@@ -32,8 +33,9 @@ export default function PageAudiovisuel() {
             allow='autoplay; encrypted-media'
             playing={false}
             controls={true}
-            muted={false}
-            loop={false}
+            muted={true}
+            loop={true}
+            config={{ youtube: { playerVars: { showinfo: 1 } }}} 
           />
         </div>
       </div>
@@ -53,11 +55,11 @@ export default function PageAudiovisuel() {
             width="65vw"
 						height="30vw"
             allow='autoplay; encrypted-media'
-            frameborder="1" 
             playing={false}
             controls={true}
-            muted={false}
-            loop={false}
+            muted={true}
+            loop={true}
+            config={{ youtube: { playerVars: { showinfo: 1 } }}} 
           />
         </div>
       </div>

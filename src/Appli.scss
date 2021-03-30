@@ -53,16 +53,10 @@
   display: block;
   text-align: center;
   padding: 0px;
-  .player-wrapper {
-		display: flex;
-		justify-content: center;
-		align-items: center;
-		margin-top: 1%;
-    .react-player {
-			height: auto !important;
-			width: 100vw  !important;
-		}
-	}
+ 
+  p{
+    margin: 15%;
+  }
 }
 .menu ul {
   position: relative;
@@ -106,7 +100,7 @@
 @media (min-width: 521px) and (max-width: 1440px) {
 
   .App{
-    padding-left: 15%;
+    padding-left: 10%;
 }
   .burger-menu,
   .burger-menu.open {
@@ -117,7 +111,7 @@
 // ******************************************************************Mobile******************************************************************
 @media (max-width: 520px) { 
   .App{
-    padding-left: 15%;
+    padding-left: 10%;
 }
   .burger-menu,
   .burger-menu.open {
@@ -127,6 +121,6 @@
 
 @media only screen and (max-width: 361px) {
   .App{
-    padding-left: 15%;
+    padding-left: 10%;
 }
 }

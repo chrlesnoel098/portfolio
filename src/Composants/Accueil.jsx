@@ -74,6 +74,7 @@ export default function Accueil() {
 					controls={true}
 					muted={true}
 					loop={true}
+					config={{ youtube: { playerVars: { showinfo: 1 } }}} 
 				/>
 			</div>
 		</div>

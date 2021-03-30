@@ -1,6 +1,5 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
-import ReactPlayer from 'react-player';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faReact } from '@fortawesome/free-brands-svg-icons';
 import { NavHashLink } from 'react-router-hash-link';
@@ -47,18 +46,6 @@ export default ({ close }) => (
       </li>
     </ul>
     <p>Charles Noel Portfolio 	<FontAwesomeIcon icon={faReact} size="2x" /> / / react &copy; {annee}</p> 
-    <div className="player-wrapper">
-				<ReactPlayer
-					url="https://youtu.be/YwFwKomah3E"
-					className="react-player"
-					width="25vw"
-					height="10vw"
-          allow='autoplay; encrypted-media'
-					playing={true}
-					controls={true}
-					muted={true}
-					loop={true}
-				/>
-			</div>
+   
   </div>
 );
