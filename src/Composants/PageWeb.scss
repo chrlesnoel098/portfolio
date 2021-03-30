@@ -1,4 +1,8 @@
 .PageWeb {
+	display: flex;
+	justify-content: center;
+	align-items:center;
+	flex-direction: column;
 	h1,
 	h2 {
 		display: flex;
@@ -18,10 +22,9 @@
 	}
 
 	.player-wrapper {
-		display: flex;
-		justify-content: center;
-		align-items: center;
+
 		margin-top: -10%;
+		width: 100%;
 	}
 
 	.section-1 {
