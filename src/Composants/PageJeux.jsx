@@ -33,7 +33,6 @@ export default function PageJeux() {
             muted={true}
             loop={true}
             config={{ youtube: { playerVars: { showinfo: 1 } }}} 
-            onReady={this.handleReady}
           />
         </div>
       </div>
