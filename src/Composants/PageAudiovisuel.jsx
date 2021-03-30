@@ -12,7 +12,7 @@ export default function PageAudiovisuel() {
       <div className="section-1">
       <div className="player-wrapper">
           <ReactPlayer
-            url="https://youtu.be/CeJmVd2DTXI"
+            url="https://www.youtube.com/embed/CeJmVd2DTXI"
             className="react-player"
             width="30vw"
             height="20vw"
@@ -26,7 +26,7 @@ export default function PageAudiovisuel() {
         </div>
         <div className="player-wrapper">
           <ReactPlayer
-            url="https://youtu.be/6LC5fyOUBWQ"
+            url="https://www.youtube.com/embed/6LC5fyOUBWQ"
             className="react-player"
             width="30vw"
             height="20vw"
@@ -50,7 +50,7 @@ export default function PageAudiovisuel() {
       <div className="section-2">
       <div className="player-wrapper">
           <ReactPlayer
-            url="https://youtu.be/0zUWLce8B2s"
+            url="https://www.youtube.com/embed/0zUWLce8B2s"
             className="react-player"
             width="65vw"
 						height="30vw"

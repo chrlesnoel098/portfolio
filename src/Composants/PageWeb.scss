@@ -1,5 +1,4 @@
 .PageWeb {
-
 	h1,
 	h2 {
 		display: flex;
@@ -32,7 +31,6 @@
 			justify-content: space-between;
 			align-items: center;
 			flex-direction: row;
-			margin-left: -45px;
 
 			li {
 				list-style: none;
@@ -75,14 +73,26 @@
 				}
 			}
 		}
+		.texte {
+			// margin: 5%;
+			width: 80%;
+			text-align: justify;
+			text-justify: inter-word;
+		}
+		h3 {
+			font-size: 1.8em;
+		}
+		p {
+			width: 100%;
+			font-weight: bold;
+			line-height: 1.5;
+			word-spacing: 3px;
+			writing-mode: inherit;
+		}
 	}
 
 	.section-2 {
 		margin-top: -10vw;
-
-		img {
-			margin: 0px;
-		}
 
 		&:hover {
 			cursor: zoom-in;
@@ -101,9 +111,7 @@
 // ******************************************************************Tablette******************************************************************
 @media (min-width: 521px) and (max-width: 1440px) {
 	.PageWeb {
-		.section-2{
-			margin-top: 10vw;
-		}
+
 		h1,
 		h2 {
 			font-size: 4em;
@@ -137,6 +145,9 @@
 					}
 				}
 			}
+			.texte {
+				margin: 5%;
+			}
 		}
 	}
 }
@@ -144,9 +155,7 @@
 // ******************************************************************Mobile******************************************************************
 @media (max-width: 520px) {
 	.PageWeb {
-		.section-2{
-			margin-top: 10vw;
-		}
+
 		h1,
 		h2 {
 			font-size: 2em;
@@ -182,6 +191,9 @@
 					}
 				}
 
+			}
+			.texte {
+				margin: 10%;
 			}
 		}
 	}

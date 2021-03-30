@@ -44,17 +44,25 @@ export default function PageWeb() {
 							<img src={auberge} alt="lien auberge de jeunesse de tadoussac" />
 							<div className="middle">
 								<div className="text">
-									Refonte du site web  <br /> de l'auberge de   <br /> jeunesse tadoussac <br /> <br /> cliquez
+									Refonte du site web <br /> de l'auberge de <br /> jeunesse tadoussac <br /> <br />{' '}
+									cliquez
 								</div>
 							</div>
 						</a>
 					</li>
 
 					<li>
-						<a href="https://determined-poitras-e79357.netlify.app" target="_blank" rel="noopener noreferrer">
+						<a
+							href="https://determined-poitras-e79357.netlify.app"
+							target="_blank"
+							rel="noopener noreferrer"
+						>
 							<img src={block} alt="lien jeu de block" />
 							<div className="middle">
-								<div className="text"> Application web <br />  d'un jeu CandyCrush <br /> Phaser.Js <br /> <br /> cliquez</div>
+								<div className="text">
+									{' '}
+									Application web <br /> d'un jeu CandyCrush <br /> Phaser.Js <br /> <br /> cliquez
+								</div>
 							</div>
 						</a>
 					</li>
@@ -63,31 +71,43 @@ export default function PageWeb() {
 						<a href="https://github.com/chrlesnoel098/2020_PROD" target="_blank" rel="noopener noreferrer">
 							<img src={tim} alt="lien github site web techniques integration multimedia" />
 							<div className="middle">
-								<div className="text"> 	Refonte du site web <br /> de la Technique   <br />  multimédia <br /> <br /> cliquez</div>
+								<div className="text">
+									{' '}
+									Refonte du site web <br /> de la Techniques <br /> multimédia <br /> <br /> cliquez
+								</div>
 							</div>
 						</a>
 					</li>
 				</ul>
 
-
 				<div className="player-wrapper">
 					<ReactPlayer
-						url="https://youtube.com/watch?v=V4v_-VtWItM"
+						url="https://www.youtube.com/embed/V4v_-VtWItM"
 						className="react-player"
 						width="65vw"
 						height="30vw"
-						allow='autoplay; encrypted-media'
+						allow="autoplay; encrypted-media"
 						playing={false}
-					controls={true}
-					muted={true}
-					loop={true}
-					config={{ youtube: { playerVars: { showinfo: 1 } }}} 
+						controls={true}
+						muted={true}
+						loop={true}
+						config={{ youtube: { playerVars: { showinfo: 1 } } }}
 					/>
 				</div>
-
+				<div className="texte">
+					<h3>Refonte du site web de la Techniques d'Intégration Multimédia du cégep de Maisonneuve</h3>
+					<p>
+						*Travail réalisé en équipe avec la collaboration de : Charles Noël , Lauryan Gervais, Bernard Dwyer, Alejandra Mirenda. <br />
+						<br />
+						<br />
+						Domaine : Gestion de projet, intégration d'animation web <br />
+						<br />
+						Technique : SCRUM, Burndown, Github<br />
+						<br />
+						Rôle : Gestionnaire de projet, programmeur général.
+					</p>
+				</div>
 			</div>
-
-
 		</div>
 	);
 }
