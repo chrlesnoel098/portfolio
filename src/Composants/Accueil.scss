@@ -16,7 +16,6 @@
 		h2 {
 			display: flex;
 			-webkit-text-fill-color: rgba(255, 255, 255, 0);
-			/* Will override color (regardless of order) */
 			-webkit-text-stroke-width: 1px;
 			-webkit-text-stroke-color: black;
 			font-style: italic;
@@ -29,6 +28,7 @@
 			font-style: italic;
 			color: rgb(109, 56, 56);
 		}
+
 		.titreMobile {
 			display: none;
 		}
@@ -178,12 +178,11 @@
 	}
 }
 
-// Here's the meat and potatoes.
 
-/* Our mixin positions a copy of our text
-directly on our existing text, while
-also setting content to the appropriate
-text set in the data-text attribute. */
+/* copie du texte
+directement sur le texte existant, définissant également le contenu de la manière appropriée
+texte défini dans l'attribut data-text. */
+
 @mixin glitchCopy {
 	content: attr(data-text);
 	position: absolute;
@@ -196,28 +195,27 @@ text set in the data-text attribute. */
 .glitch {
 	position: relative;
 	color: rgb(0, 0, 0);
-	/* Animation provies a slight random skew. Check bottom of doc
-for more information on how to random skew. */
+	/* L'animation montre un léger biais aléatoire. */
 	animation: glitch-skew 1s infinite forwards alternate-reverse;
 
-	// Creates a copy before our text.
+	// Crée une copie avant notre texte.
 	&::before {
-		// Duplicates our text with the mixin.
+		// Duplique notre texte
 		@include glitchCopy;
-		// Scoots text slightly to the left for the color offset.
+		// Fait glisser le texte légèrement vers la gauche pour le décalage de couleur.
 		left: 2px;
-		// Creates the color 'shadow' that happens on the glitch.
+		// Crée la couleur «ombre» qui se produit sur le Glitch.
 		text-shadow: -2px 0 #bababa;
-		/* Creates an initial clip for our glitch. This works in
-  a typical top,right,bottom,left fashion and creates a mask
-  to only show a certain part of the glitch at a time. */
+		/* Crée un clip initial pour notre problème. Cela fonctionne dans
+  une mode typique en haut, à droite, en bas, à gauche et crée un masque
+  pour ne montrer qu'une certaine partie du Glitch à la fois. */
 		clip: rect(44px, 450px, 56px, 0);
-		/* Runs our glitch-anim defined below to run in a 5s loop, infinitely,
-  with an alternating animation to keep things fresh. */
+		/* Exécute le glitch-anim défini ci-dessous pour s'exécuter dans une boucle de 5s, à l'infini,
+  avec une animation en alternance pour garder les choses fraîches. */
 		animation: glitch-anim 5s infinite forwards alternate-reverse;
 	}
 
-	// Creates a copy after our text. Note comments from ::before.
+	// Crée une copie après notre texte. Notez les commentaires de :: before.
 	&::after {
 		@include glitchCopy;
 		left: -2px;
@@ -226,10 +224,10 @@ for more information on how to random skew. */
 	}
 }
 
-/* Creates an animation with 20 steaps. For each step, it calculates 
-a percentage for the specific step. It then generates a random clip
-box to be used for the random glitch effect. Also adds a very subtle
-skew to change the 'thickness' of the glitch.*/
+/* Crée une animation avec 20 steaps. Pour chaque étape, il calcule
+un pourcentage pour l'étape spécifique. Il génère ensuite un clip aléatoire
+boîte à utiliser pour l'effet de Glitch aléatoire. Ajoute également un très subtil
+incliner pour changer l '«épaisseur» du Glitch.*/
 @keyframes glitch-anim {
 	$steps: 20;
 
@@ -241,7 +239,7 @@ skew to change the 'thickness' of the glitch.*/
 	}
 }
 
-// Same deal, just duplicated for ultra randomness.
+// Même accord, juste dupliqué pour un rendu ultra aléatoire.
 @keyframes glitch-anim2 {
 	$steps: 20;
 
@@ -253,7 +251,7 @@ skew to change the 'thickness' of the glitch.*/
 	}
 }
 
-// Does the same deal as before, but now only skews. Used for main text.
+//Fait la même chose qu'avant, mais maintenant seulement des biais. Utilisé pour le texte principal.
 @keyframes glitch-skew {
 	$steps: 10;
 
@@ -267,42 +265,49 @@ skew to change the 'thickness' of the glitch.*/
 // ******************************************************************Tablette******************************************************************
 @media (min-width: 521px) and (max-width: 1440px) {
 	.Accueil {
-		
-		.section-1{
+
+		.section-1 {
 			margin-top: 25%;
-			}	
-	.react-player {
-		display: none;
-	}
+		}
+
+		.react-player {
+			display: none;
+		}
+
 		.section-2 {
 			margin-top: 0vh;
+
 			.navSecondaire {
 				display: flex;
 				justify-content: center;
 				align-items: center;
 				flex-direction: column;
 				margin-left: -5%;
+
 				li {
 					&:hover .middle {
 						transform: translate(155px, -380px);
 					}
+
 					.middle {
 						opacity: 1;
 						transform: translate(55px, -350px);
 					}
+
 					a img {
 						width: 550px;
 						height: 450px;
 					}
 				}
 			}
-	}
+		}
+
 		.section-1 {
 			.titreMobile {
 				display: flex;
 				color: black;
 			}
-			
+
 		}
 	}
 
@@ -311,40 +316,47 @@ skew to change the 'thickness' of the glitch.*/
 // ******************************************************************Mobile******************************************************************
 @media (max-width: 520px) {
 	.Accueil {
-		.section-1{
+		.section-1 {
 			margin-top: 25%;
-				h1, h2{
-					font-size: 2.5em;
-				}
+
+			h1,
+			h2 {
+				font-size: 2.5em;
 			}
-		
+		}
+
 		.react-player {
 			display: none;
 		}
+
 		.section-2 {
 			margin-top: 0vh;
+
 			.navSecondaire {
 				display: flex;
 				justify-content: center;
 				align-items: center;
 				flex-direction: column;
 				margin-left: -5%;
+
 				li {
 					&:hover .middle {
 						transform: translate(185px, -180px);
 					}
-	
+
 					.middle {
 						opacity: 1;
 						transform: translate(85px, -150px);
 					}
+
 					a img {
 						width: 550px;
 						height: 350px;
 					}
 				}
 			}
-	}
+		}
+
 		.section-1 {
 			.titreMobile {
 				display: flex;
@@ -354,40 +366,46 @@ skew to change the 'thickness' of the glitch.*/
 	}
 
 }
+
 // ******************************************************************Mobile petit format******************************************************************
 @media only screen and (max-width: 361px) {
 	.Accueil {
-		
-		.section-1{
-			h1, h2{
+
+		.section-1 {
+
+			h1,
+			h2 {
 				font-size: 2em;
 			}
 		}
+
 		.section-2 {
 			margin-top: 0vh;
-			
+
 			.navSecondaire {
 				display: flex;
 				justify-content: center;
 				align-items: center;
 				flex-direction: column;
+
 				// margin-left: -5%;
 				li {
 					&:hover .middle {
 						transform: translate(100px, -280px);
 					}
-	
+
 					.middle {
 						opacity: 1;
 						transform: translate(45px, -250px);
 					}
+
 					a img {
 						width: 380px;
 						height: 350px;
 					}
 				}
 			}
-	}
-		
+		}
+
 	}
 }
