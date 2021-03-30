@@ -136,7 +136,7 @@
 			flex-direction: column;
 			margin-top: 1.5%;
             .texte {
-                width: 100%;
+                width: 90%;
             }
             p {
                 width: 100%;
@@ -149,6 +149,15 @@
 // ******************************************************************Mobile petit format******************************************************************
 @media only screen and (max-width: 361px) {
 	.PageJeux {
+		.player-wrapper {
+			display: flex;
+			justify-content: center;
+			flex-direction: column;
+			margin-top: 1.5%;
+            .texte {
+                width: 90%;
+            }
+		}
 		h1:nth-child(1) {
 			margin-top: 35px;
 		}
