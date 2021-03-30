@@ -70,7 +70,7 @@ export default function Accueil() {
 					width="65vw"
 					height="30vw"
 					allow='autoplay; encrypted-media'
-					playing={false}
+					playing={true}
 					controls={true}
 					muted={true}
 					loop={true}
