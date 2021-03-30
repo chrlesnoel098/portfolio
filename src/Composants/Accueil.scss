@@ -1,6 +1,4 @@
 .Accueil {
-	// height: 100vh;
-
 	.section-1 {
 		display: flex;
 		justify-content: center;
@@ -269,6 +267,7 @@ skew to change the 'thickness' of the glitch.*/
 // ******************************************************************Tablette******************************************************************
 @media (min-width: 521px) and (max-width: 1440px) {
 	.Accueil {
+		
 		.section-1{
 			margin-top: 25%;
 			}	
@@ -282,7 +281,7 @@ skew to change the 'thickness' of the glitch.*/
 				justify-content: center;
 				align-items: center;
 				flex-direction: column;
-				// margin-left: -5%;
+				margin-left: -5%;
 				li {
 					&:hover .middle {
 						transform: translate(155px, -380px);
@@ -329,7 +328,7 @@ skew to change the 'thickness' of the glitch.*/
 				justify-content: center;
 				align-items: center;
 				flex-direction: column;
-				// margin-left: -5%;
+				margin-left: -5%;
 				li {
 					&:hover .middle {
 						transform: translate(185px, -180px);
